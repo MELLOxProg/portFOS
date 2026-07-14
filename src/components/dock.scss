@@ -1,0 +1,136 @@
+@use "./glass.mixin.scss" as glass;
+
+.dock {
+  display: flex;
+  position: absolute;
+  bottom: 1rem;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: rgb(63, 63, 63, 0.395);
+  padding-inline: 1rem;
+  padding-block: 0.75rem;
+  border-radius: 0.75rem;
+  backdrop-filter: blur(5px);
+  gap: 0.75rem;
+
+  .icon {
+    border-radius: 0.5rem;
+    padding: 0.65rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    aspect-ratio: 1/1;
+    width: 3.75rem;
+    transition: all 0.5s cubic-bezier(0.19,1,0.22,1);
+  }
+
+  .github {
+    @include glass.liquid-glass(
+      linear-gradient(
+        135deg,
+        #261e3e 0%,
+        #3a3b60 22%,
+        #58698c 48%,
+        #6f88ab 72%,
+        #809cc1 100%
+      )
+    );
+  }
+  .note {
+    @include glass.liquid-glass(
+      linear-gradient(
+        135deg,
+        #0d1e79 0%,
+        #2a208d 18%,
+        #5222a8 38%,
+        #7a22be 58%,
+        #a81fd1 78%,
+        #d203dd 100%
+      )
+    );
+  }
+  .pdf {
+    @include glass.liquid-glass(
+      linear-gradient(
+        180deg,
+        #c50337 0%,
+        #8f0830 35%,
+        #43041a 70%,
+        #02060e 100%
+      )
+    );
+  }
+  .calendar {
+    @include glass.liquid-glass(
+      linear-gradient(
+        135deg,
+        #1ca7ec 0%,
+        #25a5eb 15%,
+        #2a98e6 35%,
+        #2c84de 55%,
+        #2a63cc 75%,
+        #1f2f98 100%
+      )
+    );
+  }
+  .spotify {
+    @include glass.liquid-glass(
+      linear-gradient(
+        135deg,
+        #002b36 0%,
+        #013742 12%,
+        #04514e 28%,
+        #14655b 48%,
+        #2f8a7c 68%,
+        #63c9ba 85%,
+        #a7ffeb 100%
+      )
+    );
+  }
+  .mail {
+    @include glass.liquid-glass(
+      linear-gradient(
+        135deg,
+        #ff6d29 0%,
+        #d15a24 18%,
+        #a04722 36%,
+        #6f3724 56%,
+        #453027 78%,
+        #161316 100%
+      )
+    );
+  }
+  .cli {
+    @include glass.liquid-glass(
+      linear-gradient(
+        135deg,
+        #031130 0%,
+        #08205a 18%,
+        #0f368c 38%,
+        #185df1 62%,
+        #6f9df8 82%,
+        #f3f7fe 100%
+      )
+    );
+  }
+  .link {
+    @include glass.liquid-glass(
+      linear-gradient(
+        135deg,
+        #1c4668 0%,
+        #274666 18%,
+        #3a4562 36%,
+        #523f59 54%,
+        #66354a 72%,
+        #720632 100%
+      )
+    );
+  }
+  .icon:hover {
+    transform: scale(1.20) translateY(-20%);
+  }
+  .icon:hover+.icon,
+  .icon:has(+ .icon:hover) {
+    transform: scale(1.07) translateY(-7%);
+  }
+}
