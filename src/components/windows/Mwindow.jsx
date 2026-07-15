@@ -1,11 +1,11 @@
 import React from "react";
 import { Rnd } from "react-rnd";
 import "./window.scss";
-const Mwindow = ({children}) => {
+const Mwindow = ({children, width="40vw", height="40vh"}) => {
   return (
     <Rnd
     default={
-  {    width:"40vw",height:"40vh",x:300,y:200}
+  {    width:width,height:height,x:300,y:200}
     }>
       <div className="window">
         <div className="nav">
