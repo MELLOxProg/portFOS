@@ -8,6 +8,7 @@ body,
 #root {
   height: 100%;
   width: 100%;
+  overflow: hidden;
 }
 main{
     height: 100%;
@@ -16,8 +17,13 @@ main{
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    overflow: hidden;
+    position: relative;
+  
 }
 
 body {
   background-color: black;
+    // overflow-y: auto;
+
 }

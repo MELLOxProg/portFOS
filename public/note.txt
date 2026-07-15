@@ -1,0 +1,104 @@
+/**
+ * @file: profile.config.ts
+ * @author: Nirav Kandira
+ * @summary: Full-stack engineer, MERN focus.
+ */
+
+// --------------------------------------------------
+// 1. CORE DEPENDENCIES & SKILLS
+// --------------------------------------------------
+const TECH_STACK = {
+  frontend: [
+    "React.js",
+    "Next.js",
+    "Redux",
+    "React Router",
+    "Vite",
+    "TailwindCSS",
+    "SCSS",
+    "GSAP", 
+  ],
+  backend: [
+    "Node.js",
+    "Express.js",
+    "MongoDB",
+    "MySQL",
+    "Redis",
+  ],
+  tools: ["Git", "GitHub"]
+};
+
+// --------------------------------------------------
+// 2. EXPERIENCE LOG (Reverse Chronological)
+// --------------------------------------------------
+class ProfessionalHistory {
+
+  /**
+   * @period May 2025 - July 2025
+   */
+  public async KvonTech_Services(): Promise<Impact> {
+    const role = "Web Developer Intern";
+    const stack = "MERN (MongoDB, Express.js, React.js, Node.js)";
+
+    const contributions = [
+      "Developed and deployed responsive web applications",
+      "Optimized backend APIs",
+      "Collaborated with cross-functional teams",
+      "Delivered secure, client-ready features on deadline",
+    ];
+
+    return { role, stack, contributions };
+  }
+}
+
+// --------------------------------------------------
+// 3. KEY PROJECTS
+// --------------------------------------------------
+interface Project {
+  name: string;
+  stack: string[];
+  summary: string;
+}
+
+const projects: Project[] = [
+  {
+    name: "Cryptic Key - Password Manager",
+    stack: ["React.js", "Node.js", "MongoDB", "Vite", "Tailwind CSS"],
+    summary: "Secure password manager with encrypted storage and CRUD functionality",
+  },
+  {
+    name: "Moodify - Mood-Based Music Player",
+    stack: ["MERN", "MediaPipe FaceLandmarker", "JWT", "Redis", "ImageKit"],
+    summary: "Detects user mood via webcam, streams matching songs, JWT auth with Redis token blacklisting",
+  },
+  {
+    name: "macOS-Style Interactive Portfolio",
+    stack: ["React", "Vite", "react-rnd", "react-console-emulator"],
+    summary: "Portfolio site replicating the macOS desktop experience with draggable windows and a working terminal",
+  },
+  {
+    name: "Discord Bot for Community Engagement & Automation",
+    stack: ["Node.js", "discord.js"],
+    summary: "Modular bot for server management and automation, integrated with external APIs including ChatGPT",
+  },
+];
+
+// --------------------------------------------------
+// 4. ACADEMIC BACKGROUND
+// --------------------------------------------------
+const education = new Map<string, string>([
+  ["Manipal University Jaipur", "B.Tech CSE Hons. (AI/ML), 2022 - 2026"],
+]);
+
+export default new ProfessionalHistory();
+
+```bash
+# TERMINAL OUTPUT
+# ---------------------------------------
+$ user --status
+> Name: Nirav Kandira
+> Location: Jaipur, India
+> Status: Open to opportunities
+> Loading Assets... [||||||||||] 100%
+> Ready.
+```
