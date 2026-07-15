@@ -1,0 +1,39 @@
+[
+  {
+    "id": 1,
+    "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&q=80&w=1000",
+    "title": "Moodify- Mood-Based Music Player",
+    "description": "An AI-powered music recommendation platform that analyzes user mood and delivers personalized playlists through an intuitive, responsive interface.",
+    "tags": [
+      "React",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "SCSS",
+      "JWT",
+      "Axios",
+      "JWT",
+      "bcrypt"
+    ],
+    "repoLink": "https://github.com/MELLOxProg/moodify",
+    "demoLink": null
+  },
+  {
+    "id": 2,
+    "image": "https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?auto=format&fit=crop&q=80&w=1000",
+    "title": "Cryptic Key- Password Manager",
+    "description": "A full-stack password manager that securely stores encrypted credentials with user authentication, protected routes, and a modern MERN architecture.",
+    "tags": ["MongoDB", "Express.js", "React", "Node.js", "Tailwind CSS"],
+    "repoLink": "https://github.com/MELLOxProg/cryptickey-mongo",
+    "demoLink": null
+  },
+  {
+    "id": 3,
+    "image": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&q=80&w=1000",
+    "title": "portFOS- macOS-Style Interactive Portfolio",
+    "description": "A sleek, desktop-inspired portfolio website featuring draggable windows, smooth animations, and a responsive UI to showcase projects and technical skills.",
+    "tags": ["React", "Vite", "SCSS", "MacOS UI", "JavaScript"],
+    "repoLink": "https://github.com/MELLOxProg/portFOS",
+    "demoLink": null
+  }
+]

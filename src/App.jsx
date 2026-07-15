@@ -3,6 +3,7 @@ import './app.scss'
 import Dock from './components/Dock'
 import Navbar from './components/Navbar'
 import Mwindow from './components/windows/Mwindow'
+import Github from './components/windows/Github'
 
 
 
@@ -13,9 +14,7 @@ function App() {
     <main>
       <Navbar />
       <Dock />
-      <Mwindow >
-        <p>This is the content of the window.</p>
-      </Mwindow>
+    <Github />
     </main>
   )
 }
