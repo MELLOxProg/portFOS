@@ -1,11 +1,24 @@
-.cli-window{
+.cli-window {
     height: 100%;
-    overflow: auto;
-   padding-bottom: 3rem;
-   background-color: #222222;
+    overflow: hidden;
+    padding: 1.25rem;
+    padding-bottom: 3rem;
+    background-color: #222222;
+
+    .cli-banner {
+        width: fit-content;
+        border: 2px solid #f2f2f2;
+        padding: 0.55rem 0.8rem;
+        margin-bottom: 0.75rem;
+        color: #f2f2f2;
+        font-family: "Cascadia Mono", Consolas, "Courier New", monospace;
+        font-size: 0.95rem;
+        font-weight: 700;
+        line-height: 1;
+    }
 
     div[name="react-console-emulator"]{
-        height: 100%;
+        height: calc(100% - 3rem);
         background-color: transparent !important;
 
     }

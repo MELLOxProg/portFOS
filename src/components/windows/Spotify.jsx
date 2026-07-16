@@ -2,9 +2,14 @@ import React from "react";
 import Mwindow from "./Mwindow";
 import "./spotify.scss";
 
-const Spotify = () => {
+const Spotify = ({ windowName, setwindowState }) => {
   return (
-    <Mwindow width="27vw">
+    <Mwindow
+      windowName={windowName}
+      setwindowState={setwindowState}
+      width="27vw"
+      defaultPosition={{ x: 980, y: 230 }}
+    >
       <div className="spotify-window">
         <iframe
           data-testid="embed-iframe"

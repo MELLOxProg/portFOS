@@ -4,7 +4,7 @@ import TerminalModule from "react-console-emulator";
 import "./cli.scss"
 const Terminal = typeof TerminalModule === "function" ? TerminalModule : TerminalModule?.default;
 
-const Cli = ({ windowName, setWindowsState }) => {
+const Cli = ({ windowName, setwindowState }) => {
     const commands = {
         about: {
             description: 'About me',
@@ -69,11 +69,7 @@ LinkedIn: linkedin.com/in/nirav-kandira-873732258`
             fn: (...args) => args.join(' ')
         }
     }
-    const welcomeMessage = `
-╔════════════════════════════════════════╗
-║     Welcome to My Portfolio CLI!       ║
-╚════════════════════════════════════════╝
-Hello! 👋 Welcome to my interactive portfolio. You can navigate through my work experience, skills, and projects using terminal commands.
+    const welcomeMessage = `Hello! 👋 Welcome to my interactive portfolio. You can navigate through my work experience, skills, and projects using terminal commands.
 Type 'help' to see all available commands, or try:
   • about     - Learn about me
   • skills    - View my technical skills
@@ -83,13 +79,18 @@ Type 'help' to see all available commands, or try:
 Happy exploring! 🚀
 `
     return (
-        <Mwindow >
+        <Mwindow
+            windowName={windowName}
+            setwindowState={setwindowState}
+            defaultPosition={{ x: 260, y: 360 }}
+        >
             <div className="cli-window">
+                <div className="cli-banner">Welcome to My Portfolio CLI!</div>
                 <Terminal
                     commands={commands}
                     welcomeMessage={welcomeMessage}
                     promptLabel={'niravkandira:~$'}
-                    promptLabelStyle={{ color: '#00ff00' }}
+                    promptLabelStyle={{ color: '#0480f3' }}
                 />
             </div>
         </Mwindow>

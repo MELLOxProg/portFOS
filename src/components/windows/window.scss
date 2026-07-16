@@ -35,12 +35,17 @@
         width: 15px;
         background-color: whitesmoke;
         border-radius: 50%;
+        cursor: pointer;
       }
       .red {
         background-color: #ff605c;
       }
       .yellow {
         background-color: #ffbd44;
+      }
+      .yellow.disabled {
+        cursor: default;
+        opacity: 0.45;
       }
       .green {
         background-color: #00ca4e;

@@ -26,7 +26,7 @@ const GitCard = ({
         ))}
       </div>
       <div className="urls">
-        <a href={data.repoLink } target="_blank" rel="noopener noreferrer">
+        <a href={data.repoLink} target="_blank" rel="noopener noreferrer">
           Repository
         </a>
         {data.demoLink && (
@@ -39,9 +39,13 @@ const GitCard = ({
   );
 };
 
-const Github = () => {
+const Github = ({ windowName, setwindowState }) => {
   return (
-    <Mwindow>
+    <Mwindow
+      windowName={windowName}
+      setwindowState={setwindowState}
+      defaultPosition={{ x: 60, y: 80 }}
+    >
       <div className="cards">
         {githubData.map((project) => {
           return <GitCard key={project.id} data={project} />;

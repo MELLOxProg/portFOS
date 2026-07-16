@@ -2,7 +2,7 @@ import React from 'react'
 import './navbar.scss'
 import DateTime from './DateTime'
 
-const Navbar = () => {
+const Navbar = ({windowState, setwindowState}) => {
   return (
 <nav>
     <div className="left">
@@ -19,7 +19,7 @@ const Navbar = () => {
             <p>Window</p>
         </div>
         <div className="nav-item">
-            <p>Terminal</p>
+            <button><p onClick={() => setwindowState({ ...windowState, cli: !windowState.cli })}>Terminal</p></button>
         </div>
     </div>
     <div className="right">
