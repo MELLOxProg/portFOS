@@ -40,7 +40,7 @@ portFOS turns a developer portfolio into a lightweight desktop environment. Visi
 Clone the repository and install dependencies:
 
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/MELLOxProg/portFOS.git
 cd portFOS
 npm install
 ```
