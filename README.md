@@ -2,6 +2,8 @@
 
 A macOS-inspired interactive portfolio built with React and Vite. portFOS presents projects, profile notes, a resume viewer, Spotify embed, and an interactive terminal inside draggable desktop-style windows.
 
+**Live Demo:** [https://portfos-1.onrender.com](https://portfos-1.onrender.com)
+
 ![portFOS Demo](src/assets/demo.gif)
 
 ## Overview
