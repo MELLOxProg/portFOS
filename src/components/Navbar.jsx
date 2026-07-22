@@ -21,6 +21,9 @@ const Navbar = ({windowState, setwindowState}) => {
         <div className="nav-item">
             <button><p onClick={() => setwindowState({ ...windowState, cli: !windowState.cli })}>Terminal</p></button>
         </div>
+        <div className="nav-item">
+            <button><p><a href="https://github.com/MELLOxProg/" target="_blank" rel="noopener noreferrer">Github</a></p></button>
+        </div>
     </div>
     <div className="right">
         <div className="nav-icon">
