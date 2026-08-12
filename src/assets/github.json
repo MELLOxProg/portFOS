@@ -20,11 +20,21 @@
   },
   {
     "id": 2,
-    "image": "https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?auto=format&fit=crop&q=80&w=1000",
-    "title": "Cryptic Key- Password Manager",
-    "description": "A full-stack password manager that securely stores encrypted credentials with user authentication, protected routes, and a modern MERN architecture.",
-    "tags": ["MongoDB", "Express.js", "React", "Node.js", "Tailwind CSS"],
-    "repoLink": "https://github.com/MELLOxProg/cryptickey-mongo",
+    "image": "https://images.unsplash.com/photo-1531746790731-6c087fecd65a?auto=format&fit=crop&q=80&w=1000",
+    "title": "Ethos- AI Chat Application",
+    "description": "A full-stack AI chat platform with authenticated user accounts, persistent chat history, and internet-aware responses powered by LangChain and Google Gemini.",
+    "tags": [
+      "React",
+      "Redux",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "LangChain",
+      "JWT",
+      "Socket.IO",
+      "Tailwind CSS"
+    ],
+    "repoLink": "https://github.com/MELLOxProg/ethos",
     "demoLink": null
   },
   {
