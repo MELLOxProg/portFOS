@@ -8,7 +8,7 @@ A macOS-inspired interactive portfolio built with React and Vite. portFOS presen
 
 ## Overview
 
-portFOS turns a developer portfolio into a lightweight desktop environment. Visitors can open apps from the dock, move windows around, inspect projects, read profile notes, view the resume, and interact with a custom terminal experience.
+portFOS turns a developer portfolio into a lightweight desktop environment. Visitors can open apps from the dock, move windows around, inspect projects, read profile notes, view the resume, and interact with a custom terminal experience. The interface also includes a wallpaper cycling control with a frosted-glass button that lets users switch between multiple desktop backgrounds while preserving the polished macOS-inspired aesthetic.
 
 ## Screenshot
 
@@ -17,6 +17,7 @@ portFOS turns a developer portfolio into a lightweight desktop environment. Visi
 ## Features
 
 - macOS-style desktop interface with wallpaper, navbar, dock, and window controls
+- Wallpaper switcher with frosted-glass button and persisted theme rotation
 - Draggable and resizable app windows powered by `react-rnd`
 - Project showcase window with responsive cards and project metadata
 - Code-styled notes/profile window with syntax highlighting
@@ -92,8 +93,9 @@ portFOS/
 - Update project cards in `src/assets/github.json`.
 - Update profile/code notes in `public/note.txt`.
 - Replace the resume at `public/resume.pdf`.
-- Swap wallpapers or screenshots in `src/assets`.
+- Swap or add wallpapers in `src/assets/wallpapers/` and update the rotation list in `src/App.jsx`.
 - Adjust default app window positions in the individual window components.
+- Tune the wallpaper switcher button style in `src/app.scss` if you want a different glass effect or spacing.
 
 ## License
 

@@ -50,8 +50,11 @@ function App() {
     setWallpaperIndex((current) => (current + 1) % wallpapers.length)
   }
 
+  const isDarkNavbarWallpaper = wallpaperIndex === 6
+
   return (
     <main
+      className={isDarkNavbarWallpaper ? 'wallpaper-theme-dark' : ''}
       style={{
         backgroundImage: `url(${wallpapers[wallpaperIndex]})`,
         backgroundPosition: 'center center',

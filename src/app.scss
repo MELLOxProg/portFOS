@@ -58,3 +58,19 @@ body {
 .wallpaper-switcher:active {
   transform: translateY(0);
 }
+
+.wallpaper-theme-dark nav {
+  color: #111111;
+}
+
+.wallpaper-theme-dark nav a,
+.wallpaper-theme-dark nav p,
+.wallpaper-theme-dark .nav-item button,
+.wallpaper-theme-dark .nav-item {
+  color: #111111;
+}
+
+.wallpaper-theme-dark .comp-icon img,
+.wallpaper-theme-dark .nav-icon img {
+  filter: brightness(0);
+}
