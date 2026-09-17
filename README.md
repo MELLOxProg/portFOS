@@ -68,24 +68,55 @@ npm run preview
 
 ```txt
 portFOS/
+|-- .gitignore
+|-- eslint.config.js
+|-- index.html
+|-- package.json
+|-- package-lock.json
+|-- vite.config.js
 |-- public/
 |   |-- dock-icons/
 |   |-- navbar-icons/
 |   |-- note.txt
 |   `-- resume.pdf
 |-- src/
+|   |-- App.jsx
+|   |-- app.scss
+|   |-- main.jsx
 |   |-- assets/
 |   |   |-- demo.gif
+|   |   |-- github.json
 |   |   |-- home.png
-|   |   `-- wallpaper2.jpg
-|   |-- components/
-|   |   |-- windows/
-|   |   |-- Dock.jsx
-|   |   `-- Navbar.jsx
-|   |-- App.jsx
-|   `-- main.jsx
-|-- package.json
-`-- vite.config.js
+|   |   `-- wallpapers/
+|   |       |-- 1.png
+|   |       |-- 2.png
+|   |       |-- 3.png
+|   |       |-- 4.jpg
+|   |       |-- 5.png
+|   |       |-- 6.webp
+|   |       |-- 7.jpg
+|   |       `-- 8.jpg
+|   `-- components/
+|       |-- DateTime.jsx
+|       |-- Dock.jsx
+|       |-- dock.scss
+|       |-- glass.mixin.scss
+|       |-- Navbar.jsx
+|       |-- navbar.scss
+|       `-- windows/
+|           |-- Cli.jsx
+|           |-- cli.scss
+|           |-- Github.jsx
+|           |-- github.scss
+|           |-- Mwindow.jsx
+|           |-- Note.jsx
+|           |-- note.scss
+|           |-- Resume.jsx
+|           |-- resume.scss
+|           |-- Spotify.jsx
+|           |-- spotify.scss
+|           `-- window.scss
+`-- dist/
 ```
 
 ## Customization
