@@ -1,6 +1,15 @@
 [
   {
     "id": 1,
+    "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&q=80&w=1000",
+    "title": "InferTrials - AI Arena",
+    "description": "An AI evaluation arena built to compare intelligent agents, run trials, and surface performance insights across model-driven workflows.",
+    "tags": ["LangGraph", "LangChain", "Python", "AI Agents", "Evaluation"],
+    "repoLink": "https://github.com/MELLOxProg/langgraph-ai-arena",
+    "demoLink": null
+  },
+  {
+    "id": 2,
     "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&q=80&w=1000",
     "title": "Moodify- Mood-Based Music Player",
     "description": "An AI-powered music recommendation platform that analyzes user mood and delivers personalized playlists through an intuitive, responsive interface.",
@@ -18,7 +27,7 @@
     "demoLink": null
   },
   {
-    "id": 2,
+    "id": 3,
     "image": "https://images.unsplash.com/photo-1531746790731-6c087fecd65a?auto=format&fit=crop&q=80&w=1000",
     "title": "Ethos- AI Chat Application",
     "description": "A full-stack AI chat platform with authenticated user accounts, persistent chat history, and internet-aware responses powered by LangChain and Google Gemini.",
@@ -37,7 +46,7 @@
     "demoLink": null
   },
   {
-    "id": 3,
+    "id": 4,
     "image": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&q=80&w=1000",
     "title": "portFOS- macOS-Style Interactive Portfolio",
     "description": "A sleek, desktop-inspired portfolio website featuring draggable windows, smooth animations, and a responsive UI to showcase projects and technical skills.",

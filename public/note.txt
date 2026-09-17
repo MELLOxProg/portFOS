@@ -1,38 +1,48 @@
 /**
  * @file: profile.config.ts
  * @author: Nirav Kandira
- * @summary: Full-stack engineer, MERN focus.
+ * @summary: Full-stack engineer, AI + web applications.
  */
 
 // --------------------------------------------------
 // 1. CORE DEPENDENCIES & SKILLS
 // --------------------------------------------------
 const TECH_STACK = {
-  frontend: [
-    "React.js",
-    "Next.js",
+  webDevelopment: [
+    "MERN Stack (MongoDB, Express.js, React.js, Node.js)",
     "Redux",
     "React Router",
     "Vite",
-    "TailwindCSS",
+    "Tailwind CSS",
     "SCSS",
-    "GSAP", 
+    "GSAP",
+    "Socket.io",
+    "Passport.js",
+    "HTML",
+    "CSS",
   ],
-  backend: [
-    "Node.js",
-    "Express.js",
-    "MongoDB",
-    "MySQL",
-    "Redis",
+  databaseManagement: ["MongoDB", "MySQL", "Redis"],
+  programmingLanguages: ["JavaScript", "TypeScript", "Python"],
+  coreConcepts: [
+    "OOPS",
+    "RESTful APIs",
+    "Authentication & Security (bcrypt, OAuth 2.0)",
+    "Data Structures",
   ],
-  tools: ["Git", "GitHub"]
+  toolsAndPlatforms: ["Git", "GitHub"],
+  aiAndMachineLearning: [
+    "LangChain/LangGraph",
+    "RAG",
+    "Principles of Artificial Intelligence (PAI)",
+    "Machine Learning",
+    "Deep Learning",
+  ],
 };
 
 // --------------------------------------------------
 // 2. EXPERIENCE LOG (Reverse Chronological)
 // --------------------------------------------------
 class ProfessionalHistory {
-
   /**
    * @period May 2025 - July 2025
    */
@@ -62,24 +72,24 @@ interface Project {
 
 const projects: Project[] = [
   {
-    name: "Cryptic Key - Password Manager",
-    stack: ["React.js", "Node.js", "MongoDB", "Vite", "Tailwind CSS"],
-    summary: "Secure password manager with encrypted storage and CRUD functionality",
+    name: "InferTrials - AI Arena",
+    stack: ["LangGraph", "LangChain", "Python", "AI Agents", "Evaluation"],
+    summary: "An AI evaluation arena built to compare intelligent agents, run trials, and surface performance insights across model-driven workflows.",
   },
   {
     name: "Moodify - Mood-Based Music Player",
-    stack: ["MERN", "MediaPipe FaceLandmarker", "JWT", "Redis", "ImageKit"],
-    summary: "Detects user mood via webcam, streams matching songs, JWT auth with Redis token blacklisting",
+    stack: ["React", "Node.js", "Express.js", "MongoDB", "SCSS", "JWT", "Axios", "bcrypt"],
+    summary: "An AI-powered music recommendation platform that analyzes user mood and delivers personalized playlists through an intuitive, responsive interface.",
   },
   {
-    name: "macOS-Style Interactive Portfolio",
-    stack: ["React", "Vite", "react-rnd", "react-console-emulator"],
-    summary: "Portfolio site replicating the macOS desktop experience with draggable windows and a working terminal",
+    name: "Ethos - AI Chat Application",
+    stack: ["React", "Redux", "Node.js", "Express.js", "MongoDB", "LangChain", "JWT", "Socket.IO", "Tailwind CSS"],
+    summary: "A full-stack AI chat platform with authenticated user accounts, persistent chat history, and internet-aware responses powered by LangChain and Google Gemini.",
   },
   {
-    name: "Discord Bot for Community Engagement & Automation",
-    stack: ["Node.js", "discord.js"],
-    summary: "Modular bot for server management and automation, integrated with external APIs including ChatGPT",
+    name: "portFOS - macOS-Style Interactive Portfolio",
+    stack: ["React", "Vite", "SCSS", "MacOS UI", "JavaScript"],
+    summary: "A sleek, desktop-inspired portfolio website featuring draggable windows, smooth animations, and a responsive UI to showcase projects and technical skills.",
   },
 ];
 

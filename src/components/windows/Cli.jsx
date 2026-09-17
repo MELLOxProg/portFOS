@@ -24,10 +24,10 @@ AI & Machine Learning (Theoretical): Machine Learning, Deep Learning, Principles
         projects: {
             description: 'View my projects',
             usage: 'projects',
-            fn: () => `1. Cryptic Key - Password Manager - React.js, Node.js, MongoDB, Vite, Tailwind CSS
+            fn: () => `1. InferTrials - AI Arena - LangGraph, LangChain, Python, AI Agents, Evaluation
 2. Moodify - Mood-Based Music Player - MERN Stack, MediaPipe FaceLandmarker, JWT, Redis, ImageKit
-3. macOS-Style Interactive Portfolio - React, Vite, react-rnd, react-console-emulator
-4. Discord Bot for Community Engagement & Automation - Node.js, discord.js`
+3. Ethos - AI Chat Application - React, Redux, Node.js, Express.js, MongoDB, LangChain
+4. portFOS - macOS-Style Interactive Portfolio - React, Vite, react-rnd, react-console-emulator`
         },
         experience: {
             description: 'Display work experience',
